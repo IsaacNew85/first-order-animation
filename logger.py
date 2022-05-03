@@ -4,7 +4,8 @@ import torch.nn.functional as F
 import imageio
 
 import os
-from skimage.draw import circle
+#from skimage.draw import circle
+from skimage.draw import disk as circle
 
 import matplotlib.pyplot as plt
 import collections
